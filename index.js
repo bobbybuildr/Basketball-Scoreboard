@@ -77,7 +77,6 @@ function newGame() {
 
 function countdownTimer() {
     totalSeconds--
-    console.log(totalSeconds)
     timer.textContent = formatTime(totalSeconds)
     if (totalSeconds <= 0) {
         clearInterval(timerInterval)
