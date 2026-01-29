@@ -61,6 +61,10 @@ body {
     margin: 0 2px;
     border: 1px solid #BAE6FD;
     border-radius: 5px;
+    cursor: pointer;
+}
+.score-buttons button:active {
+    transform: scale(0.95);
 }
 
 #newgame-btn {
@@ -75,6 +79,11 @@ body {
     border: 1px solid #BAE6FD;
     border-radius: 5px;
     box-shadow: -1px 1px 0;
+    cursor: pointer;
+}
+#newgame-btn:active {
+    box-shadow: 0 0 0;
+    transform: translate(-1px, 1px);
 }
 
 .winning-board {
